@@ -50,7 +50,6 @@ h2 {
     margin-bottom: 20px;
     color: #444;
 }
-
 .certificates-gallery {
     display: flex;
     justify-content: center;
@@ -61,7 +60,7 @@ h2 {
 
 .certificate {
     background-color: #fff;
-    padding: 20px;
+    padding: 15px; /* Reduzido de 20px para 15px */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 280px;
@@ -69,14 +68,16 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.certificate:hover {
-    transform: scale(1.05);
+.certificate h3 {
+    font-size: 1.2em;
+    margin-bottom: 8px; /* Reduzido de 10px para 8px */
 }
 
 .certificate img {
     max-width: 100px;
-    margin-bottom: 15px;
+    margin-bottom: 10px; /* Reduzido de 15px para 10px */
 }
+
 
 .certificate h3 {
     font-size: 1.2em;
@@ -84,16 +85,28 @@ h2 {
 }
 
 .certificate button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
     background-color: #4CAF50; /* Verde */
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: auto; /* Garante que o botão fique na parte inferior */
+    transition: background-color 0.3s ease;
 }
+
+.certificate button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+}
+
+.certificate a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar todos os elementos */
+}
+
 
 footer {
     background-color: #333;
