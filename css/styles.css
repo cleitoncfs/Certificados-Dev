@@ -51,7 +51,20 @@ h2 {
     width: 280px;
     text-align: center;
     transition: transform 0.3s ease;
+    position: relative; /* Para posicionar o botão */
 }
+
+.certificate button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
 .certificate:hover {
     transform: scale(1.05);
