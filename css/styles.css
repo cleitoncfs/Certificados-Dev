@@ -16,22 +16,22 @@ header.parallax {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px; /* Altura inicial */    
+    height: 500px;
     display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
     font-size: x-large;
     font-weight: 900;
     font-family: 'Lucida Sans', Verdana, sans-serif;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Sombra do texto */
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Borda sombreada */
-    text-align: center; /* Centraliza o texto */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    text-align: center;
 }
 
 header.parallax p {
-    margin: 0; /* Remove margens padrão */
+    margin: 0;
 }
 
 header h1 {
@@ -60,7 +60,7 @@ h2 {
 
 .certificate {
     background-color: #fff;
-    padding: 15px; /* Reduzido de 20px para 15px */
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 280px;
@@ -70,12 +70,12 @@ h2 {
 
 .certificate h3 {
     font-size: 1.2em;
-    margin-bottom: 8px; /* Reduzido de 10px para 8px */
+    margin-bottom: 8px;
 }
 
 .certificate img {
     max-width: 100px;
-    margin-bottom: 10px; /* Reduzido de 15px para 10px */
+    margin-bottom: 10px;
 }
 
 
@@ -85,18 +85,18 @@ h2 {
 }
 
 .certificate button {
-    background-color: #4CAF50; /* Verde */
+    background-color: #4CAF50;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: auto; /* Garante que o botão fique na parte inferior */
+    margin-top: auto;
     transition: background-color 0.3s ease;
 }
 
 .certificate button:hover {
-    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+    background-color: #45a049;
 }
 
 .certificate a {
@@ -104,7 +104,7 @@ h2 {
     color: inherit;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centralizar todos os elementos */
+    align-items: center;
 }
 
 
