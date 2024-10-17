@@ -11,7 +11,7 @@ body {
 }
 
 header.parallax {
-    background-image: url('../img/img-code.jpeg');
+    background-image: url('../img/img-tech.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
