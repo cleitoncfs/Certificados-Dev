@@ -84,13 +84,16 @@ h2 {
 }
 
 .certificate button {
-    background-color: #4CAF50;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4CAF50; /* Verde */
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-}
+
 
 footer {
     background-color: #333;
