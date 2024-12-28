@@ -76,7 +76,7 @@ h4 {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 280px;
+    width: calc(25% - 20px); /* Cada card ocupa 25% menos o espaçamento (gap) */
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -176,6 +176,10 @@ footer a:hover {
         background-size: cover;
         background-position: center;
     }
+
+    .certificate {
+        width: calc(33.33% - 20px); /* 3 cards por linha */
+    }
 }
 
 @media (min-width: 800px) and (max-width: 1180px) {
@@ -187,6 +191,18 @@ footer a:hover {
 
     header h1 {
         font-size: 2.3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .certificate {
+        width: calc(50% - 20px); /* 2 cards por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .certificate {
+        width: 100%; /* 1 card por linha */
     }
 }
 
